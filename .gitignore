@@ -1,0 +1,10 @@
+__pycache__/
+*.ttt.bak
+
+# LaTeX build files
+report/*
+!report/main.tex
+!report/report.pdf
+!report/references.bib
+!report/IEEEtran.cls
+!report/Images/
