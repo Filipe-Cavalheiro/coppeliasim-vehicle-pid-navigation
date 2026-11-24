@@ -21,6 +21,23 @@ text interface in the terminal shows the mode, steering angle and speed.
 
 <table>
   <tr>
+    <td width="60%"><a href="media/lap.mp4"><img src="media/lap.gif" alt="A full lap in automatic mode: top-down view of the course on the left, a camera following the car on the right as it steers between the reference posts and around obstacles."></a></td>
+    <td width="40%"><a href="media/parking.mp4"><img src="media/parking.gif" alt="Parking mode: the car drives to the first parking mark, then reverses into the bay and stops."></a></td>
+  </tr>
+  <tr>
+    <td>A lap in automatic mode: whole course (left) and a camera following the car (right). The
+      green post is the current reference. (<a href="media/lap.mp4">MP4</a>)</td>
+    <td>Parking mode: forward to the first mark, then reverse into the bay.
+      (<a href="media/parking.mp4">MP4</a>)</td>
+  </tr>
+</table>
+
+The clips were recorded headless in CoppeliaSim 4.10 with this client unchanged, the keys pressed
+by a script, and frames taken from two vision sensors added for the recording; they play about
+10× (lap) and 5× (parking) faster than the simulation.
+
+<table>
+  <tr>
     <td width="50%"><img src="media/obstacles_course.png" alt="Top view of the CoppeliaSim scene: the obstacle course with the path the car follows."></td>
     <td width="50%"><img src="media/parked_car.png" alt="The car parked in the parking bay after the automatic manoeuvre."></td>
   </tr>
